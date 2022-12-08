@@ -1,3 +1,10 @@
+---
+title: Index
+layout: template
+filename: index.md
+--- 
+
+
 There are 3 main parts to this project in terms of files. There is the python file, the html files, and the javascript files. These are not the only files as there are image files and a css file.
 
 
