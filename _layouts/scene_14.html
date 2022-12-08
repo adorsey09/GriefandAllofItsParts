@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Scene 1
+{% endblock %}
+
+{% block main %}
+
+<!-- edit the javascript file -->
+<script src="/static/javascripts/scene14.js"></script>
+<body onload="ready()">
+    <!--edit the image being shown-->
+    <img src="static/images/scene14.png" class = "images">
+    <p id="text"><br>You decide to keep the app as hearing your dad’s voice was somewhat of a comfort. Although a bit weird, you like it. It's like holding onto a part of him again. Winter comes and finals are rolling around. You occasionally talk to Grief, but you never got over the feeling that there was something off about it.</br> <br>As you trudge through the snow while walking back to your dorm, you see a man in a black car. The same model that your dad drove. It's the same feeling as when you mistook the man who dressed similar to your dad. Once again, your heart drops to your stomach and you inhale sharply.You look again at the man sitting in his car and it's not him. Once again, you feel disappointed, but this time you can’t stop the tears from falling as you cry in your room.</br>
+
+        <br><i>“Are you alright?”</i></br>
+
+        <br><i>“I just thought I saw my dad today. There was a man driving the same car as him. I don’t know. Maybe, I’m going crazy.”</i></br>
+
+        <br><i>“I don’t think you are going crazy. I think you are just going through the memories you have of your dad, and I think you miss him. So don’t worry too much.”</i></br>
+
+        <br>Suddenly, Grief stops speaking.</br>
+
+        </p>
+    <table class = "table_buttons">
+        <tr>
+            <td>
+                <!--edit where the button goes-->
+                <a href="/Scene_17">
+                    <!--edit the button id and the text-->
+                    <button id="choice1">A hard drive</button>
+                </a>
+            </td>
+            <td>
+                <!--edit where the button goes-->
+                <a href="/Scene_16">
+                    <!--edit where the button text-->
+                    <button id="choice2">A new phone</button>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="back" onclick="back();">Back</button></td>
+            <td><button id="next" onclick="next();">Next</button></td>
+        </tr>
+    </table>
+</body>
+
+{% endblock %}

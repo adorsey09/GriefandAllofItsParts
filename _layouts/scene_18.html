@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Scene 1
+{% endblock %}
+
+{% block main %}
+
+<!-- edit the javascript file -->
+<script src="/static/javascripts/scene18.js"></script>
+<body onload="ready()">
+    <!--edit the image being shown-->
+    <img src="static/images/scene18.png" alt="Man in the Park 2" class = "images">
+    <p id="text">Wow. So you’re a <span style="color:red"><strong>murderer</strong></span>. Or are you? Can this be considered <span style="color:red"><strong>murder</strong></span>? Sure, Grief doesn’t have a body, but they are sentient. Do you have <span style="color:red"><strong>blood</strong></span> on your hands? Perhaps, you don't? Or do justify killing them by saying that Grief has no rights because they are man made?</p>
+    <table class = "table_buttons">
+        <tr>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="back" onclick="back();">Back</button></td>
+            <td><button id="next" onclick="next();">Next</button></td>
+        </tr>
+    </table>
+</body>
+
+{% endblock %}
