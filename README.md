@@ -6,5 +6,3 @@ Once you open the link, you should see the title screen. Click 'Start' to get st
 
 Once, you click 'Start', it will take you to another page and allow you to read the text on the page. To continue reading, click 'Next'. If you would like to go back to some text on the page, click 'Back'. If you keep clicking 'Next', eventually you will be offerred options on what you would like your character to do. If you click one of the options, you will continue to another scene and another part of the story. You can keep chosing options until you reach the end. There are multiple endings.
 
-
-Video Link: https://youtu.be/JYuczNvPuco
