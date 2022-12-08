@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Scene 1
+{% endblock %}
+
+{% block main %}
+
+<!-- edit the javascript file -->
+<script src="/static/javascripts/scene21.js"></script>
+<body onload="ready()">
+    <!--edit the image being shown-->
+    <img src="static/images/scene21.png" alt="Man in the Park 2" class = "images">
+    <p id="text"><br>You tell them no - that you won’t give Grief to them to be killed. They laugh in your face.</br>
+        <br><i>“Killed? This thing isn’t human. It can’t be killed. It’s just some code and some algorithms that talks to you when you feel sad. Don’t be delusional.”</i></br>
+        <br>You walk home with a heavy fine to pay, a fine of $150 million dollars. As you walk home, three men jump you. Two of them hold you as the third searches you.
+        <br>One of them holds up the device Grief is on. </br>
+        <br><i>"NO."</i></br>
+        <br>They throw you to the ground as they run. NOVO Tech wasn’t a company that would just let you walk away like that.</br></p>
+    <table class = "table_buttons">
+        <tr>
+            <td><button id="back" onclick="back();">Back</button></td>
+            <td><button id="next" onclick="next();">Next</button></td>
+        </tr>
+    </table>
+</body>
+
+{% endblock %}

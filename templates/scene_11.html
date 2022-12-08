@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Scene 1
+{% endblock %}
+
+{% block main %}
+
+<!-- edit the javascript file -->
+<script src="/static/javascripts/scene11.js"></script>
+<body onload="ready()">
+    <!--edit the image being shown-->
+    <img src="static/images/scene11.png" alt="Man in the Park 2" class = "images">
+    <p id="text"><br><i>“Sure, give it a shot.”</i></br>
+
+        You listen as your dad’s voice comes out of your phone. It’s so familiar yet uncanny to listen to. It’s his voice, but also not his voice. Suddenly, Grief stops speaking.
+        </p>
+    <table class = "table_buttons">
+        <tr>
+            <td>
+                <!--edit where the button goes-->
+                <a href="/Scene_17">
+                    <!--edit the button id and the text-->
+                    <button id="choice1">A hard drive</button>
+                </a>
+            </td>
+            <td>
+                <!--edit where the button goes-->
+                <a href="/Scene_16">
+                    <!--edit where the button text-->
+                    <button id="choice2">A new phone</button>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="back" onclick="back();">Back</button></td>
+            <td><button id="next" onclick="next();">Next</button></td>
+        </tr>
+    </table>
+</body>
+
+{% endblock %}

@@ -1,0 +1,87 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+
+/*Color of body */
+body {
+    background-color: #000000;
+}
+
+/* table format */
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* image format*/
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+/*title format */
+.title {
+    color: #ffffff;
+    font-family: "Courier New", bold, monospace;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+/* format of text of the story */
+#text {
+    color: #ffffff;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.table_buttons {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Courier New", monospace;
+}
+
+
+/* format of buttons */
+#choice1, #choice2, #what, #no, #yes {
+    visibility: hidden;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* format of buttons when hovering */
+#choice1:hover, #choice2:hover, #what:hover, #no:hover, #yes:hover {
+    visibility: hidden;
+    background-color: #16bff2;
+    color: #000000;
+}
+
+/* format of back, next buttons */
+#back, #next {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Courier New", monospace;
+}
+
+/* format of back, next buttons when hovering */
+#back:hover, #next:hover {
+    background-color: #808080;
+}
+
+/* getting rid of underline of buttons that link to another page */
+a {
+    text-decoration: none;
+}

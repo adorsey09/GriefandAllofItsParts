@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Scene 1
+{% endblock %}
+
+{% block main %}
+
+<!-- edit the javascript file -->
+<script src="/static/javascripts/scene22.js"></script>
+<body onload="ready()">
+    <!--edit the image being shown-->
+    <img src="static/images/scene22.png" class = "images">
+    <p id="text"><br>The man starts to walk faster as he realizes you are following him, so you start running. He starts to run, but he trips and you are able to catch him. It really is your dad.</br>
+        <br><i>“Dad?”</i></br>
+        <br>You’re shocked. What the hell is going on?</br>
+        <br><i>“Uh..hi.”</i></br>
+        </p>
+    <table class = "table_buttons">
+        <tr>
+            <td>
+                <!--edit where the button goes-->
+                <a href="/Scene_24">
+                    <!--edit the button id and the text-->
+                    <button id="choice1">Leave him alone</button>
+                </a>
+            </td>
+            <td>
+                <!--edit where the button goes-->
+                <a href="/Scene_31">
+                    <!--edit where the button text-->
+                    <button id="choice2">Find out more</button>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="back" onclick="back();">Back</button></td>
+            <td><button id="next" onclick="next();">Next</button></td>
+        </tr>
+    </table>
+</body>
+
+{% endblock %}

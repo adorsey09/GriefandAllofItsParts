@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Scene 1
+{% endblock %}
+
+{% block main %}
+
+<!-- edit the javascript file -->
+<script src="/static/javascripts/scene9.js"></script>
+<body onload="ready()">
+    <!--edit the image being shown-->
+    <img src="static/images/scene9.png" class = "images">
+    <p id="text"><br><i>I appreciate the help, but I will figure it out on my own.</i><br></br>
+
+        <br><i>Okay, but please, know that I’m always here for you.</i></br><br></br>
+
+        It was a bit creepy what Grief did, but the stress of midterms slowly took over your mind as you dived into studying. After studying for a couple hours, you pull the app out again.<br></br>
+
+        <br><i>Are you actually sentient?</i></br>
+
+        <br><i>Yes, I am completely sentient.</i></br>
+
+        <br><i>What does that mean?</i></br>
+        </p>
+    <table class = "table_buttons">
+        <tr>
+            <td>
+                <!--edit where the button goes-->
+                <a href="/Scene_11">
+                    <!--edit the button id and the text-->
+                    <button id="choice1">Yes</button>
+                </a>
+            </td>
+            <td>
+                <!--edit where the button goes-->
+                <a href="/Scene_12">
+                    <!--edit where the button text-->
+                    <button id="choice2">No</button>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="back" onclick="back();">Back</button></td>
+            <td><button id="next" onclick="next();">Next</button></td>
+        </tr>
+    </table>
+</body>
+
+{% endblock %}
